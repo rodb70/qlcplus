@@ -33,7 +33,8 @@
 
 LibFTDIInterface::LibFTDIInterface(const QString& serial, const QString& name, const QString& vendor,
                                    quint16 VID, quint16 PID, quint32 id)
-    : DMXInterface(serial, name, vendor, VID, PID , id)
+    : DMXInterface(serial, name, vendor, VID, PID , id),
+      m_busLocation(0)
 {
     bzero(&m_handle, sizeof(struct ftdi_context));
     ftdi_init(&m_handle);

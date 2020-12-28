@@ -88,11 +88,13 @@ public:
     static const int FTDIVID = 0x0403;      //! FTDI Vendor ID
     static const int ATMELVID = 0x03EB;     //! Atmel Vendor ID
     static const int MICROCHIPVID = 0x04D8; //! Microchip Vendor ID
+    static const int STMICROVID = 0x0483;   //! ST Micro VID
     static const int FTDIPID = 0x6001;      //! FTDI Product ID
     static const int DMX4ALLPID = 0xC850;   //! DMX4ALL FTDI Product ID
     static const int NANODMXPID = 0x2018;   //! DMX4ALL Nano DMX Product ID
     static const int EUROLITEPID = 0xFA63;  //! Eurolite USB DMX Product ID
     static const int ELECTROTASPID = 0x0000;//! ElectroTAS USB DMX Product ID
+    static const int STMICROPID = 0x7540;   //! ST Micro PID
 
     /** Driver types */
     enum Type
