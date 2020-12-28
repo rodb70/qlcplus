@@ -131,7 +131,7 @@ QList<DMXInterface *> QtSerialInterface::interfaces(QList<DMXInterface *> discov
 
     foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts())
     {
-        QString serial(info.serialNumber());
+        QString serial(info.portName());
         QString name(info.description());
         QString vendor(info.manufacturer());
 

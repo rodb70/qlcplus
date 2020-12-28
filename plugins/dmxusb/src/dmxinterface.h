@@ -96,6 +96,7 @@ public:
     static const int EUROLITEPID = 0xFA63;   //! Eurolite USB DMX Product ID
     static const int ELECTROTASPID = 0x0000; //! ElectroTAS USB DMX Product ID
     static const int DMXKINGMAXPID = 0x0094; //! DMXKing ultraDMX MAX Product ID
+    static const int STMICROPID = 0x7540;   //! ST Micro PID
 
     /** Driver types */
     enum Type

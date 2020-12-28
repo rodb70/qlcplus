@@ -22,6 +22,8 @@
 
 #include <QtSerialPort/QSerialPort>
 #include <QtSerialPort/QSerialPortInfo>
+//#include "qserialport.h"
+//#include "qserialportinfo.h"
 
 #include "dmxinterface.h"
 
