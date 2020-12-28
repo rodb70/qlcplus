@@ -245,6 +245,11 @@ QList<DMXUSBWidget *> DMXUSBWidget::widgets()
         {
             widgetList << new EuroliteUSBDMXPro(iface, output_id++);
         }
+        else if (iface->vendorID() == DMXInterface::STMICROVID &&
+                 iface->productID() == DMXInterface::STMICROPID )
+        {
+            widgetList << new EnttecDMXUSBPro(iface, output_id++, input_id++);
+        }
 #endif
         else
         {
