@@ -7,7 +7,6 @@ Build-Depends:
  g++,
  libasound2-dev (>= 1.0.16),
  libfftw3-dev,
- libftdi1-dev (>= 0.17),
  libmad0-dev,
  libsndfile1-dev,
  qtbase5-dev, qtscript5-dev,
