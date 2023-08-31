@@ -89,6 +89,7 @@ public:
     static const int ATMELVID = 0x03EB;      //! Atmel Vendor ID
     static const int MICROCHIPVID = 0x04D8;  //! Microchip Vendor ID
     static const int NXPVID = 0x1FC9;        //! NXP Vendor ID
+    static const int STMICROVID = 0x0483;    //! ST Micro VID
     static const int FTDIPID = 0x6001;       //! FTDI Product ID
     static const int FTDI2PID = 0x6010;      //! FTDI COM485-PLUS2 Product ID
     static const int DMX4ALLPID = 0xC850;    //! DMX4ALL FTDI Product ID
