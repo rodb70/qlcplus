@@ -22,6 +22,8 @@
 #include <QDebug>
 #include <QDir>
 
+#define DMX_CHANNELS 512
+
 EuroliteUSBDMXPro::EuroliteUSBDMXPro(DMXInterface *iface, quint32 outputLine)
     : DMXUSBWidget(iface, outputLine, DEFAULT_OUTPUT_FREQUENCY)
     , m_running(false)
