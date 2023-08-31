@@ -22,6 +22,8 @@
 #include <QString>
 #include <QDebug>
 
+#define DMX_CHANNELS 512
+
 Stageprofi::Stageprofi(DMXInterface *interface, quint32 outputLine)
     : DMXUSBWidget(interface, outputLine, DEFAULT_OUTPUT_FREQUENCY)
     , m_running(false)
