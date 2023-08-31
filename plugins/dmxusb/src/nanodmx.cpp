@@ -22,6 +22,8 @@
 #include <QDebug>
 #include <QDir>
 
+#define DMX_CHANNELS 512
+
 NanoDMX::NanoDMX(DMXInterface *interface, quint32 outputLine)
     : DMXUSBWidget(interface, outputLine, DEFAULT_OUTPUT_FREQUENCY)
     , m_running(false)
