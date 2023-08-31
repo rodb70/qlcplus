@@ -23,6 +23,7 @@
 #include "rdmprotocol.h"
 
 #define RDM_MAX_RETRY   5
+#define DMX_CHANNELS 512
 
 /****************************************************************************
  * Initialization

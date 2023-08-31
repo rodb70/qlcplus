@@ -27,6 +27,7 @@
 
 #define DMX_MAB 16
 #define DMX_BREAK 110
+#define DMX_CHANNELS 512
 #define DEFAULT_OPEN_DMX_FREQUENCY    30  // crap
 #define SETTINGS_CHANNELS "enttecdmxusbopen/channels"
 
